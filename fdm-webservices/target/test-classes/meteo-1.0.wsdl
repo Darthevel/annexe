@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions name="meteo" targetNamespace="http://com.meteo.fake/meteo/"
+	xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:tns="http://com.meteo.fake/meteo/"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/">
+
+	<wsdl:types>
+		<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+			targetNamespace="http://com.meteo.fake/meteo/">
+			<xsd:element name="AppelWsMeteo" type="tns:AppelWsMeteoType" />
+			<xsd:element name="ReponseWsMeteo" type="tns:ReponseWsMeteoType" />
+			<xsd:complexType name="AppelWsMeteoType">
+				<xsd:attribute name="ville" type="xsd:string" />
+				<xsd:attribute name="date" type="xsd:date"/>
+			</xsd:complexType>
+			<xsd:complexType name="ReponseWsMeteoType">
+				<xsd:attribute name="ville" type="xsd:string" />
+				<xsd:attribute name="indiceDeConfiance" type="xsd:integer"/>
+				<xsd:attribute name="tempsAnnonce" type="xsd:string" />
+				<xsd:attribute name="date" type="xsd:date"/>
+			</xsd:complexType>
+        </xsd:schema>
+	</wsdl:types>
+	<wsdl:message name="meteovilleRequest">
+		<wsdl:part element="tns:AppelWsMeteo" name="parameters" />
+	</wsdl:message>
+	<wsdl:message name="meteovilleResponse">
+		<wsdl:part element="tns:ReponseWsMeteo" name="parameters" />
+	</wsdl:message>
+	<wsdl:portType name="MeteoPortType">
+		<wsdl:operation name="readMeteoVille">
+			<wsdl:input message="tns:meteovilleRequest" />
+			<wsdl:output message="tns:meteovilleResponse" />
+		</wsdl:operation>
+	</wsdl:portType>
+	<wsdl:binding name="MeteoBinding" type="tns:MeteoPortType">
+		<soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+		<wsdl:operation name="readMeteoVille">
+			<soap:operation soapAction="http://com.meteo.fake/meteoville/1.0/read" />
+			<wsdl:input>
+				<soap:body use="literal" />
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body use="literal" />
+			</wsdl:output>
+		</wsdl:operation>
+	</wsdl:binding>
+	<wsdl:service name="meteoville-1.0">
+		<wsdl:port name="meteo-port" binding="tns:MeteoBinding">
+			<soap:address location="http://com.meteo.fake/process/meteo" />
+		</wsdl:port>
+	</wsdl:service>
+</wsdl:definitions>

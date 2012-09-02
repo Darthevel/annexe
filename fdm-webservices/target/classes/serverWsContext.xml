@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:web-services="http://www.springframework.org/schema/web-services"
+	xsi:schemaLocation="http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+		http://www.springframework.org/schema/web-services http://www.springframework.org/schema/web-services/web-services.xsd
+		http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.0.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+
+	<web-services:annotation-driven />
+	<context:annotation-config />
+	<context:component-scan base-package="com.ehret.scoresheet.ws"/>
+
+	<bean class="org.springframework.ws.transport.http.WebServiceMessageReceiverHandlerAdapter">
+		<property name="messageFactory" ref="messageFactory" />
+	</bean>
+	
+	<!-- Redirection du message Soap -->
+	<bean id="messageDispatcher"
+		class="org.springframework.ws.soap.server.SoapMessageDispatcher">
+		<property name="endpointMappings">
+			<list>
+				<ref local="soapEndpointMapping" />
+			</list>
+		</property>
+	</bean>
+
+	<!-- Détection @SoapAction -->
+	<bean id="soapEndpointMapping"
+		class="org.springframework.ws.soap.server.endpoint.mapping.SoapActionAnnotationMethodEndpointMapping">
+		<property name="interceptors">
+			<list>
+				<bean class="org.springframework.ws.soap.server.endpoint.interceptor.SoapEnvelopeLoggingInterceptor" />
+                <bean class="org.springframework.ws.server.endpoint.interceptor.PayloadLoggingInterceptor" />
+			</list>
+		</property>
+		<property name="order" value="1" />
+	</bean>
+
+	<!-- Exposition des WSDL -->
+	<bean id="webService"
+		class="org.springframework.ws.wsdl.wsdl11.SimpleWsdl11Definition">
+		<property name="wsdl" value="classpath:/meteo-1.0.wsdl" />
+	</bean>
+</beans>
