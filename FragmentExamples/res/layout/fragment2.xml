@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent" 
+	android:orientation="horizontal">
+
+	<TextView
+		android:id="@+id/fragment2"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_centerInParent="true"
+		android:text="@string/fragment2_desc" 
+		android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+	<ImageView
+	    android:id="@+id/imageView1"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@+id/fragment1"
+	    android:layout_centerHorizontal="true"
+	    android:layout_marginTop="39dp"
+	    android:src="@drawable/javamind" />
+</LinearLayout>

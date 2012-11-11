@@ -1,0 +1,8 @@
+<resources>
+	<string name="app_name">FragmentExemple</string>
+	<string name="hello">Bienvenue sur l\'application Javamind illustrant l\'utilisation des fragments</string>
+	<string name="fragment1_desc">Je suis le fragment 1</string>
+	<string name="fragment2_desc">Je suis le fragment 2</string>
+	<string name="fragment3_desc">Je suis le fragment 3</string>
+	<string name="blank"> </string>
+</resources>
