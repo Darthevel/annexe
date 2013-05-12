@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/0_project/0_project.iml" filepath="$PROJECT_DIR$/0_project/0_project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1_junit/1_junit.iml" filepath="$PROJECT_DIR$/1_junit/1_junit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2_hamcrest/2_hamcrest.iml" filepath="$PROJECT_DIR$/2_hamcrest/2_hamcrest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/3_festassert/3_festassert.iml" filepath="$PROJECT_DIR$/3_festassert/3_festassert.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core.iml" filepath="$PROJECT_DIR$/core.iml" />
+    </modules>
+  </component>
+</project>
+
