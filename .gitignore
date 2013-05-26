@@ -1,0 +1,12 @@
+
+/JugLyonFestAssert/0_project/target
+/JugLyonFestAssert/1_junit/target
+/JugLyonFestAssert/3_festassert/target/3_festassert-1.0-SNAPSHOT.jar
+/JugLyonFestAssert/3_festassert/target/maven-archiver/pom.properties
+/JugLyonFestAssert/3_festassert/target/test-classes/com/ehret/jug/facade/AssertFestJunitTest.class
+/JugLyonFestAssert/3_festassert/target/test-classes/com/ehret/jug/facade/FrameworkAssert.class
+/JugLyonFestAssert/2_hamcrest/target/2_hamcrest-1.0-SNAPSHOT.jar
+/JugLyonFestAssert/2_hamcrest/target/maven-archiver/pom.properties
+/JugLyonFestAssert/2_hamcrest/target/surefire-reports/TEST-com.ehret.jug.facade.AssertHamcrestJunitTest.xml
+/JugLyonFestAssert/2_hamcrest/target/surefire-reports/com.ehret.jug.facade.AssertHamcrestJunitTest.txt
+/JugLyonFestAssert/2_hamcrest/target/test-classes/com/ehret/jug/facade/AssertHamcrestJunitTest.class

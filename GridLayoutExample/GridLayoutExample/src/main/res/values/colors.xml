@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="grey_dark">#888888</color>
+    <color name="grey_light">#CCCCCC</color>
+    <color name="typeevent1">#8A7E66</color>
+    <color name="typeevent2">#FBE983</color>
+    <color name="typeevent3">#C5BC8E</color>
+    <color name="focus">#C5E9E8</color>
+    <color name="empty">#ffffff</color>
+</resources>

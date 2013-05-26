@@ -1,0 +1,14 @@
+# incremental data. DO NOT EDIT.
+# format is <lastModified> <length> <SHA-1> <path>
+# Encoding is UTF-8
+1369593770906 917 7da2e927ff90243272ea2952124144c8f7e1b06f D:\Bureau\AndroidStudioProjects\GridLayoutExample\GridLayoutExample\build\res\all\debug\layout\activity_grid.xml
+1369586446703 6548 9da450c480738bc05f03a32b3da5b7ea69d1e13a D:\Bureau\AndroidStudioProjects\GridLayoutExample\GridLayoutExample\build\res\all\debug\drawable\logo3.png
+1369586446718 12329 a8301606e15d4b6dccdd775cc273cfc51a552645 D:\Bureau\AndroidStudioProjects\GridLayoutExample\GridLayoutExample\build\res\all\debug\drawable-xhdpi\ic_launcher.png
+1369588618531 382 4c27ba410181e5263704dd420950824a92e97456 D:\Bureau\AndroidStudioProjects\GridLayoutExample\GridLayoutExample\build\res\all\debug\drawable\typeevent1_background.xml
+1369586446718 3029 d2d5e772d081df53ecf277254c6c33cb362948dc D:\Bureau\AndroidStudioProjects\GridLayoutExample\GridLayoutExample\build\res\all\debug\layout-land\activity_main.xml
+1369586446718 234 4d05765d2482331029d03a430cd46dc43f01425e D:\Bureau\AndroidStudioProjects\GridLayoutExample\GridLayoutExample\build\res\all\debug\values-land\values.xml
+1369586446703 2190 5bbb965e9bd9fb0b2aa2bea188986b8d7cd03b43 D:\Bureau\AndroidStudioProjects\GridLayoutExample\GridLayoutExample\build\res\all\debug\layout\activity_main.xml
+1369586446703 7721 39b0f5a0570da92f471225402ad0ea6de30bf2be D:\Bureau\AndroidStudioProjects\GridLayoutExample\GridLayoutExample\build\res\all\debug\drawable-hdpi\ic_launcher.png
+1369588618531 382 8ed10b2917626a35ffb973731884670a190c3564 D:\Bureau\AndroidStudioProjects\GridLayoutExample\GridLayoutExample\build\res\all\debug\drawable\typeevent2_background.xml
+1369588618546 1186 471afdee5a7b9af87fc404b7e607c787445804c3 D:\Bureau\AndroidStudioProjects\GridLayoutExample\GridLayoutExample\build\res\all\debug\values\values.xml
+1369588618531 382 49c3e5c38f6d9d8593e06e610c8ae15b710fb628 D:\Bureau\AndroidStudioProjects\GridLayoutExample\GridLayoutExample\build\res\all\debug\drawable\typeevent3_background.xml

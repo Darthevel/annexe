@@ -1,0 +1,17 @@
+# incremental data. DO NOT EDIT.
+# format is <lastModified> <length> <SHA-1> <path>
+# Encoding is UTF-8
+1369587281937 376 e62e7e80fe3228f125f8aa403958192d8f674aba D:\Bureau\AndroidStudioProjects\GridLayoutExample\GridLayoutExample\src\main\res\values\colors.xml
+1369469422671 256 4d57a9a2e9781c981c8d7e3f3ebc8801d22623b4 D:\Bureau\AndroidStudioProjects\GridLayoutExample\GridLayoutExample\src\main\res\values-land\dimens.xml
+1369587324750 382 4c27ba410181e5263704dd420950824a92e97456 D:\Bureau\AndroidStudioProjects\GridLayoutExample\GridLayoutExample\src\main\res\drawable\typeevent1_background.xml
+1369489511343 3029 d2d5e772d081df53ecf277254c6c33cb362948dc D:\Bureau\AndroidStudioProjects\GridLayoutExample\GridLayoutExample\src\main\res\layout-land\activity_main.xml
+1369469422687 258 53266064458e3804a2bfc46df03a6536a8a5c74e D:\Bureau\AndroidStudioProjects\GridLayoutExample\GridLayoutExample\src\main\res\values\dimens.xml
+1369426679750 12329 a8301606e15d4b6dccdd775cc273cfc51a552645 D:\Bureau\AndroidStudioProjects\GridLayoutExample\GridLayoutExample\src\main\res\drawable-xhdpi\ic_launcher.png
+1369426680140 680 c76f4caaa7a8dfe9727fa93001b3aee3b22d6716 D:\Bureau\AndroidStudioProjects\GridLayoutExample\GridLayoutExample\src\main\res\values\styles.xml
+1369587329125 382 8ed10b2917626a35ffb973731884670a190c3564 D:\Bureau\AndroidStudioProjects\GridLayoutExample\GridLayoutExample\src\main\res\drawable\typeevent2_background.xml
+1369426679750 7721 39b0f5a0570da92f471225402ad0ea6de30bf2be D:\Bureau\AndroidStudioProjects\GridLayoutExample\GridLayoutExample\src\main\res\drawable-hdpi\ic_launcher.png
+1369593758125 917 7da2e927ff90243272ea2952124144c8f7e1b06f D:\Bureau\AndroidStudioProjects\GridLayoutExample\GridLayoutExample\src\main\res\layout\activity_grid.xml
+1369488294921 2190 5bbb965e9bd9fb0b2aa2bea188986b8d7cd03b43 D:\Bureau\AndroidStudioProjects\GridLayoutExample\GridLayoutExample\src\main\res\layout\activity_main.xml
+1369432021328 253 c39f73be156cf3819b904529d305d63274e65965 D:\Bureau\AndroidStudioProjects\GridLayoutExample\GridLayoutExample\src\main\res\values\strings.xml
+1369432838546 6548 9da450c480738bc05f03a32b3da5b7ea69d1e13a D:\Bureau\AndroidStudioProjects\GridLayoutExample\GridLayoutExample\src\main\res\drawable\logo3.png
+1369587334796 382 49c3e5c38f6d9d8593e06e610c8ae15b710fb628 D:\Bureau\AndroidStudioProjects\GridLayoutExample\GridLayoutExample\src\main\res\drawable\typeevent3_background.xml
